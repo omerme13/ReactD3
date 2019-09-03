@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
-import Chart from './chart.js';
+import NivoResponsivePie from './NivoResponsivePie';
+import ChartjsPie from './ChartjsPie';
+import VictoryPB from './VictoryPB';
+import RechartsPC from './RechartsPC';
 import { VictoryPie, VictoryChart, VictoryBar, VictoryTheme, sampleData } from "victory";
 
 import './App.css';
@@ -14,22 +17,26 @@ const data = [
   ]
 
 class App extends Component {
+    
     render() {
 
         return (
             <div className="App">
-                <VictoryChart
+                <RechartsPC />
+                <ChartjsPie />
+                <div style={{ height: 400 }}>
+                    <NivoResponsivePie />
+                </div>
+                {/* <VictoryChart
                     theme={VictoryTheme.material}
                     domainPadding={10}
                 >
                     <VictoryBar
-                        height={400}
-                        width={400}
                         padding={0}
-                        style={{ data: { fill: "#c43a31" }}}
+                        style={{ data: { fill: "ORANGERED" }}}
                         data={data}
                     />
-                </VictoryChart>
+                </VictoryChart> */}
 
             </div>
         )
