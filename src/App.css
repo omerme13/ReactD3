@@ -1,9 +1,9 @@
 .App {
   text-align: center;
+  width: 90%;
+  height: 90%;
+  background: whitesmoke;
+  margin: auto;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
-
-.VictoryContainer {
-    width: 100% !important; 
-    height: auto !important;
-}
-

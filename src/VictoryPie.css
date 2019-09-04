@@ -1,0 +1,8 @@
+.VictoryP path {
+    transition: 0.3s;
+}
+
+.VictoryP path:hover {
+    /* fill: lightgray !important; */
+    opacity: 0.3;
+}

@@ -5,6 +5,7 @@
   "dependencies": {
     "@nivo/bar": "^0.59.2",
     "@nivo/pie": "^0.59.1",
+    "bit": "^1.0.20",
     "chart.js": "^2.8.0",
     "classnames": "^2.2.6",
     "d3": "^5.11.0",
@@ -12,6 +13,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-minimal-pie-chart": "^5.0.0",
     "react-scripts": "3.1.1",
     "recharts": "^1.7.1",
     "victory": "^33.0.5"
