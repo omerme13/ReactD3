@@ -4,6 +4,8 @@
   height: 90%;
   background: whitesmoke;
   margin: auto;
-  /* display: flex;
-  flex-wrap: wrap; */
+}
+
+svg {
+    display: block;
 }
