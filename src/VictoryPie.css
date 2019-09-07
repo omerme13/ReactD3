@@ -10,7 +10,7 @@
     display: none;
 } */
 
-.VictoryP text:hover:not(:first-of-type) {
+.VictoryP rect ~ text:hover:not(:first-of-type) {
     text-decoration: line-through;
     cursor: pointer;
 
